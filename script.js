@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {  //comecei o meu js 
       "Content-Type": 'application/json'
     }
 
-    let containers = document.querySelectorAll('.container'); // criei a variável containers e atribui a o document.querySelectorAll passando .container como parametro, dessa forma ele vai buscar no html tudo que se encaixar no parâmetro passado;
+    let containers = document.querySelectorAll('.container'); // a variável containers  recebe document.querySelectorAll passando .container como parametro, dessa forma ele vai buscar no html tudo que se encaixar no parâmetro passado;
     containers.forEach(function (container) {// usei o foreach para iterar e preencher os elementos que estão no meu container passado como parametro na função;
       let characterID = Math.floor(Math.random() * 671); // criei a variavel characterID e atribui a ela a função random para randomizar o numero de personagens (671);
       fetch(API_URL + characterID, { headers: { API_HEADER } }) // no meu fetch, chamei a const criada para a url da api e concatenei com a variavel characterID, nos headers chamei a const criada para os mesmos.
