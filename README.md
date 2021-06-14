@@ -8,4 +8,6 @@
 ### personagem e o nome dele.
 
 ## Foi utilizada a API Rick and Mort 
-## (documentação da API: https://rickandmortyapi.com/documentation/#rest).
+## (documentação da API: https://rickandmortyapi.com/documentation/#rest).]
+
+## Para visualizar a página acesse https://desafio-estrelas.netlify.app/
