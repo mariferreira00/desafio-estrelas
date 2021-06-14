@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function () {  //eventlist contendo uma função (com parâmetros vazios até então) como parâmetro após o 'DOMContentLoader, isto é após o documento ser carrecado. 
+document.addEventListener('DOMContentLoaded', function () {  //comecei o meu js utilizando o document.addEventListener passando nele 2 eventos, um é o DOMContentLoaded (acionado quando todo documento html é carregado) e uma function até então sem parâmetros, a mesma será usada logo mais a frente.
     const API_URL = 'https://rickandmortyapi.com/api/character/'; // por boa prática, coloquei a url da API numa const já que ela não será alterada.
     const API_HEADER = { // da mesma forma os headers, já que també não sofrerão alteração.
       Accept: 'application/json',
