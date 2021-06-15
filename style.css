@@ -31,7 +31,7 @@ body{
       font-size: 25px;
       font-weight: bold;
       text-align: center;
-      text-shadow: 8px -3px 10px lime; 
+      text-shadow: 10px 5px 10px rgba(236, 35, 236, 0.973); 
       color: white;
       
     }
@@ -44,12 +44,12 @@ body{
       justify-content: center;
       width: 300px;
       height: 300px;
-      background: rgba(120, 253, 67, 0.719);
-      box-shadow: 0 8px 32px 0 rgba(204, 0, 255, 0.37);
+      background: rgba(204, 0, 255, 0.37);
+      box-shadow: 20px 10px 22px 20px rgba(204, 0, 255, 0.37);
       backdrop-filter: blur(4px);
       -webkit-backdrop-filter: blur(4px);
       border-radius: 100%;
-      border: 10px solid rgba(255, 255, 255, 0.18);
+      border: 5px solid rgba(204, 0, 255, 0.37);
       width: 100%;
       height: auto;
       
@@ -61,38 +61,8 @@ body{
           font-size: 50px;
           font-weight: bold;
           text-align: center;
-          text-shadow: 8px 1px 10px lime; 
+          text-shadow: 10px -5px 10px rgba(255, 1, 221, 0.904); 
           color: #ffffff;
           
         }
-    border-radius: 30px;
-    border: 1px solid rgba(255, 255, 255, 0.18);
-    font-family: "Abel", "Lato", sans-serif;
-    font-size: 30px;
-    font-weight: bold;
-    text-align: center;
-    color: #ffffff;
-    }
-    
-    main > section img {
-      width: 100%;
-      height: auto;
-    }
-
-        
-    
-        .cabecalho {
-          margin: 20px;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          height: 80px;
-          font-family: "Abel", "Lato", sans-serif;
-          font-size: 40px;
-          font-weight: bold;
-          text-align: center;
-          color: #ffffff;
-          width: 100%;
-        }
-   
       
