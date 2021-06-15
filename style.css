@@ -2,37 +2,69 @@
 @import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
 
 
-
 body{
   margin: 0;
   width: 100%;
-  min-height: 60vh;
+  height: auto;
+  min-height: 100vh;
   background-image: url(img/backgroundImg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
     }
+
+
     main {
-      margin: 60px;
+      margin: 80px;
       align-items: center;
       display: flex;
-      height: 60vh;
+      min-height: 80vh;
       justify-content: center;
       position: relative;
       }
 
     main > section {
-    margin: 10px;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 480px;
-    height: 480px;
-    background: rgba(255, 255, 255, 0.25);
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
+      
+      margin: 20px;
+      align-items: center;
+      font-family: "Abel", "Lato", sans-serif;
+      font-size: 25px;
+      font-weight: bold;
+      text-align: center;
+      text-shadow: 8px -3px 10px lime; 
+      color: white;
+      
+    }
+    
+    main > section img {
+      margin: 0;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 300px;
+      height: 300px;
+      background: rgba(120, 253, 67, 0.719);
+      box-shadow: 0 8px 32px 0 rgba(204, 0, 255, 0.37);
+      backdrop-filter: blur(4px);
+      -webkit-backdrop-filter: blur(4px);
+      border-radius: 100%;
+      border: 10px solid rgba(255, 255, 255, 0.18);
+      width: 100%;
+      height: auto;
+      
+    }
+
+        .cabecalho {
+          margin: 0;
+          font-family: "Abel", "Lato", sans-serif;
+          font-size: 50px;
+          font-weight: bold;
+          text-align: center;
+          text-shadow: 8px 1px 10px lime; 
+          color: #ffffff;
+          
+        }
     border-radius: 30px;
     border: 1px solid rgba(255, 255, 255, 0.18);
     font-family: "Abel", "Lato", sans-serif;
